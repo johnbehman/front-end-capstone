@@ -198,11 +198,11 @@ export const AddCakeOrder = () => {
               update(copy);
             }}
           >
-            <option value="1"></option>
-            <option value="2">White vanilla Buttercream Frosting</option>
-            <option value="3"> chocolate Buttercream Frosting</option>
-            <option value="4">Fondant</option>
-            <option value="5">Cream Cheese Frosting</option>
+            <option value="0"></option>
+            <option value="1">White vanilla Buttercream Frosting</option>
+            <option value="2"> chocolate Buttercream Frosting</option>
+            <option value="3">Fondant</option>
+            <option value="4">Cream Cheese Frosting</option>
           </select>
         </div>
       </fieldset>

@@ -14,7 +14,7 @@ export const EmployeeViews = () => {
             path="/"
             element={
               <>
-              <h1>Employee view</h1> 
+             
                 <Outlet />
               </>
             }

@@ -177,16 +177,64 @@
     {
       "customerId": 8,
       "pickUpDate": "",
-      "name": "joason d",
-      "address": "56 broad way",
-      "phone": "22222222",
-      "email": "hgj@yahoo.com",
-      "cakeFlavorsId": 4,
-      "icingTypeId": 4,
-      "designId": 3,
+      "name": "Andero Sam",
+      "address": "123 veteran  parkway ",
+      "phone": "6156750888",
+      "email": "andro@gmail.com",
+      "cakeFlavorsId": 1,
+      "icingTypeId": 2,
+      "designId": 4,
       "cakeShapeId": 3,
       "sizeId": 3,
       "id": 8
+    },
+    {
+      "customerId": 8,
+      "pickUpDate": "",
+      "name": "Mario kevin",
+      "address": "787 church st",
+      "phone": "6158875643",
+      "email": "kevin@gmail.com",
+      "cakeFlavorsId": 2,
+      "icingTypeId": 3,
+      "designId": 2,
+      "cakeShapeId": 1,
+      "sizeId": 3,
+      "id": 9,
+      "cakeShape": {
+        "id": 1,
+        "shape": "round"
+      },
+      "cakeFlavors": {
+        "id": 2,
+        "flavor": "Strawberry"
+      },
+      "icingType": {
+        "id": 3,
+        "type": "Fondant"
+      },
+      "size": {
+        "id": 1,
+        "size": "1/4 sheet"
+      },
+      "design": {
+        "id": 2,
+        "design": " For Bithday "
+      }
+    },
+    {
+      "customerId": 8,
+      "pickUpDate": "",
+      "name": "Sam Elitte",
+      "address": "255 Hamiton st",
+      "phone": "6154357898",
+      "email": "eli55@gmail.com",
+      "cakeFlavorsId": 2,
+      "icingTypeId": 3,
+      "designId": 2,
+      "cakeShapeId": 2,
+      "sizeId": 1,
+      "id": 10
     }
   ],
   "cakeFlavors": [
@@ -230,7 +278,7 @@
     },
     {
       "id": 4,
-      "type": "Fondant"
+      "type": "Cream Cheese Frosting"
     },
     {
       "id": 5,

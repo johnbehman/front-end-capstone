@@ -1,0 +1,16 @@
+.background_about{
+    background-image: url("https://thumbs.dreamstime.com/b/birthday-cake-decorated-colorful-sprinkles-ten-candles-colorful-birthday-cake-sprinkles-ten-candles-blue-142412983.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+   
+}
+.background{
+    
+    width: 500px;
+    height: auto;
+    /* margin: 50px; */
+    padding: 50px;
+}

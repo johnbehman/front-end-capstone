@@ -83,7 +83,7 @@ export const OrderList = ( ) => {
   return (
     <>
    <div className="orderMain">
-    <div className="header">
+    <div className="order_h1">
       <h1> order List</h1>
       
 </div>

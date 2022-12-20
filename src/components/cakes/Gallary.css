@@ -11,8 +11,17 @@
     background-color: rgb(231, 238, 186);
     border: 2px dotted fuchsia;
     color: black;
-    padding: 0.5rem;
+    padding: 0.75rem;
     margin: 0.5rem;
-    width: 250px;
-    height: auto;
+    width: 200px;
+    height: 200px;
+ 
+   }
+   .gallary_h1 h1{
+    left: 10px;
+    position: relative;
+    text-align: left;
+    color: fuchsia;
+    background-color:  rgb(231, 238, 186);
+    width: 230px;
    }

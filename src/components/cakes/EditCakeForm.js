@@ -71,7 +71,6 @@ export const EditCakeForm = () => {
             // className="form-control"
 
             value={cakeOrder.name}
-            // value="monkey"
             onChange={(evt) => {
               const copy = { ...cakeOrder };
               copy.name = evt.target.value;
