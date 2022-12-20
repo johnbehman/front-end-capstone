@@ -3,11 +3,14 @@
 
 
 .order {
-width: 400px;
-  margin: 20px;
+
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  top: 50px;
+  position: relative;
+
 
   /* margin-left: 500px;
   margin-right: 520px; */
@@ -21,23 +24,35 @@ padding: 10px;
   justify-content: center;
 }
 
-.header {
-  /* font-family: 'Roboto', sans-serif; */
-font-family: 'Sansita Swashed', cursive;
-  text-align: center;
-  margin-top: 5%;
-}
 
 .orderList {
-  margin-bottom: 5%;
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
   background-color: antiquewhite;
   border-color: rgb(206, 89, 47);
   border: 6px solid rgb(119, 71, 71);
+  
 }
 .orderMain{
   background-color: rgb(143, 199, 83);
 
 }
+
+
+.order_h1 h1{
+  left: 10px;
+  position: relative;
+  text-align: left;
+  color: fuchsia;
+  background-color:  rgb(231, 238, 186);
+  width: 150px;
+  font-family: 'Sansita Swashed', cursive;
+  margin: 0px;
+  padding: 5px;
+  top: 20px;
+  left: 20px;
+ }
 /* html{
   background-color: rgb(110, 123, 134);
 }

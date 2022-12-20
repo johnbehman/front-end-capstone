@@ -24,8 +24,9 @@ export const Gallary = () => {
 
   return (
     <>
+<div className="gallary_h1">
        <h1>List of gallary</h1>
-
+</div>
        <article className="gallarys" >
              {
                 gallary.map(

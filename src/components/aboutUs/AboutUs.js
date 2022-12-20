@@ -4,6 +4,7 @@ import "./AboutUs.css";
 export const AboutUs = () => {
   return (
     <>
+    <div className="background_about">
       <div className="background">
         <h2 className="headerAboutUs">About Us</h2>
 
@@ -16,7 +17,7 @@ and nut allergies. Our impressive and unique floral designs will captivate you a
 Pipe and drape and event decor can also be added turning ordinary into extraordinary.
 
         </p>
-      </div>
+      </div></div>
     </>
   );
 };
