@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed:wght@500&display=swap');
+
+
+
+.order {
+width: 400px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  /* margin-left: 500px;
+  margin-right: 520px; */
+padding: 10px;
+
+  /*   
+  background-color: rgb(232, 142, 57);
+ border: 6px solid rgb(119, 71, 71);
+  color: blanchedalmond;  */
+
+  justify-content: center;
+}
+
+.header {
+  /* font-family: 'Roboto', sans-serif; */
+font-family: 'Sansita Swashed', cursive;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.orderList {
+  margin-bottom: 5%;
+  background-color: antiquewhite;
+  border-color: rgb(206, 89, 47);
+  border: 6px solid rgb(119, 71, 71);
+}
+.orderMain{
+  background-color: rgb(143, 199, 83);
+
+}
+/* html{
+  background-color: rgb(110, 123, 134);
+}
+ */
+
+/* @font-face {
+    font-family: "Glegoo";
+    src: local("Glegoo"), url(../../Assets/Glegoo-Regular.ttf) format("woff");} */

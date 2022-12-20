@@ -1,0 +1,85 @@
+
+div.navImgContainer{
+  background-color: aqua;
+}
+  
+
+.navBarLinks {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 10px;
+}
+
+
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:center;
+}
+
+/* .navbar__item {
+  flex-basis: 20%;
+  list-style-type: none;
+} */
+
+.navbar__logout {
+  margin-left: auto;
+}
+.navbar__item {
+  border: 1px solid rgb(173, 137, 137);
+  background-color: rgb(246, 248, 239);
+  margin: 10px 10px;
+  min-height: 3vh;
+  max-height: 5vh;
+  min-width: 10vw;
+  max-width: 2vw;
+  border-radius: 5px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.navbar__item:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.navbar__link {
+  color: rgb(41, 4, 5);
+  text-decoration:rgb(209, 192, 192);
+  font-family: "Glegoo", serif;
+}
+.navbar__item {
+  margin-top: 5%;
+}
+
+
+
+/* html{
+  background-image: url("https://static1.squarespace.com/static/5a12e116cd39c3ad7688d610/t/5a1320da9140b7cbc394be43/1511203034813/Artboard+2%404x.png");
+  background-repeat: no-repeat;
+ 
+  background-size: cover; 
+  background-size: 200% 100%;
+  
+
+  
+ background-image: url("https://static1.squarespace.com/static/5a12e116cd39c3ad7688d610/t/5a1320da9140b7cbc394be43/1511203034813/Artboard+2%404x.png");
+  padding-right: 50%;
+  display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-in;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+    width: 819px;
+    aspect-ratio: auto 819 / 328;
+    height: 328px;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} */

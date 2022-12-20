@@ -1,0 +1,359 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Behman",
+      "email": "john@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "name": "Tim scoutt",
+      "email": "kyle@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 4,
+      "name": "Steve Jimmy",
+      "email": "Steve@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "name": "Karin James",
+      "email": "Karin@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "name": "Sandy Julian",
+      "email": "Sandy@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 7,
+      "name": "David Behman",
+      "email": "David@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 8,
+      "name": "Daniel Behman",
+      "email": "Daniel@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 9,
+      "name": "Jason sam",
+      "email": "Jason@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 10,
+      "name": "Matthew Frazier",
+      "email": "Matthew@gmail.com",
+      "isStaff": false
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "customerId": 6,
+      "pickUpDate": "01/22/2023",
+      "name": "Sandy Julian",
+      "address": "25 Miranda Court, Maryville,tn, 33803  United States",
+      "phone": "(567) 424-6595",
+      "email": "Sandy@gmail.com",
+      "cakeFlavorsId": 1,
+      "icingTypeId": 1,
+      "designId": 1,
+      "cakeShapeId": 1,
+      "sizeId": 1,
+      "cakeShape": {
+        "id": 1,
+        "shape": "round"
+      },
+      "cakeFlavors": {
+        "id": 4,
+        "flavor": "Chocolate"
+      },
+      "icingType": {
+        "id": 1,
+        "type": "White vanilla Buttercream Frosting "
+      },
+      "size": {
+        "id": 1,
+        "size": "1/4 sheet"
+      },
+      "design": {
+        "id": 1,
+        "design": "For Graduation"
+      }
+    },
+    {
+      "id": 2,
+      "customerId": 7,
+      "pickUpDate": "01/23/2023",
+      "name": "David Behman",
+      "address": "1101 ANITA DR CHATTANOOGA TN 37411-2438 USA",
+      "phone": "(903) 863-2069",
+      "email": "David@gmail.com",
+      "cakeFlavorsId": 2,
+      "icingTypeId": 2,
+      "designId": 2,
+      "cakeShapeId": 2,
+      "sizeId": 2
+    },
+    {
+      "id": 3,
+      "customerId": 8,
+      "pickUpDate": "01/24/2023",
+      "name": "Daniel Behman",
+      "address": "1400 BRENDA RD CHATTANOOGA TN 37415-3716 USA",
+      "phone": "(808) 871-8824",
+      "email": "Daniel@gmail.com",
+      "cakeFlavorsId": 3,
+      "icingTypeId": 3,
+      "designId": 3,
+      "cakeShapeId": 3,
+      "sizeId": 3
+    },
+    {
+      "id": 4,
+      "customerId": 9,
+      "pickUpDate": "01/25/2023",
+      "name": "Jason sam",
+      "address": "801 GORDON PL CLARKSVILLE TN 37042-4863 USA",
+      "phone": "(570) 381-3103",
+      "email": "Jason@gmail.com",
+      "cakeFlavorsId": 2,
+      "icingTypeId": 3,
+      "designId": 1,
+      "cakeShapeId": 2,
+      "sizeId": 3
+    },
+    {
+      "id": 5,
+      "customerId": 10,
+      "pickUpDate": "01/27/2023",
+      "name": "Matthew Frazier",
+      "address": "525 NEPTUNE DR CLARKSVILLE TN 37043-2325 USA",
+      "phone": "(267) 878-0674",
+      "email": "Matthew@gmail.com",
+      "cakeFlavorsId": 4,
+      "icingTypeId": 3,
+      "designId": 4,
+      "cakeShapeId": 3,
+      "sizeId": 2
+    },
+    {
+      "customerId": 8,
+      "pickUpDate": "",
+      "name": "gjhgg",
+      "address": "34 fffgg",
+      "phone": "7777777",
+      "email": "hj@yahoo.com",
+      "cakeFlavorsId": 3,
+      "icingTypeId": 2,
+      "designId": 2,
+      "cakeShapeId": 3,
+      "sizeId": 4,
+      "id": 6
+    },
+    {
+      "customerId": 8,
+      "pickUpDate": "",
+      "name": "egregg",
+      "address": "34 hhijkl",
+      "phone": "44444444",
+      "email": "wefewh@yahoo.com",
+      "cakeFlavorsId": 2,
+      "icingTypeId": 2,
+      "designId": 2,
+      "cakeShapeId": 2,
+      "sizeId": 3,
+      "id": 7
+    },
+    {
+      "customerId": 8,
+      "pickUpDate": "",
+      "name": "joason d",
+      "address": "56 broad way",
+      "phone": "22222222",
+      "email": "hgj@yahoo.com",
+      "cakeFlavorsId": 4,
+      "icingTypeId": 4,
+      "designId": 3,
+      "cakeShapeId": 3,
+      "sizeId": 3,
+      "id": 8
+    }
+  ],
+  "cakeFlavors": [
+    {
+      "id": 1,
+      "flavor": "Vanilla"
+    },
+    {
+      "id": 2,
+      "flavor": "Strawberry"
+    },
+    {
+      "id": 3,
+      "flavor": "Red velvet"
+    },
+    {
+      "id": 4,
+      "flavor": "Chocolate"
+    },
+    {
+      "id": 5,
+      "flavor": "Marble"
+    },
+    {
+      "id": 6,
+      "flavor": "Lemon"
+    }
+  ],
+  "icingTypes": [
+    {
+      "id": 1,
+      "type": "White vanilla Buttercream Frosting "
+    },
+    {
+      "id": 2,
+      "type": "  chocolate Buttercream Frosting"
+    },
+    {
+      "id": 3,
+      "type": "Fondant"
+    },
+    {
+      "id": 4,
+      "type": "Fondant"
+    },
+    {
+      "id": 5,
+      "type": "Cream Cheese Frosting"
+    }
+  ],
+  "sizes": [
+    {
+      "id": 1,
+      "size": "1/4 sheet"
+    },
+    {
+      "id": 2,
+      "size": "1/2 sheet"
+    },
+    {
+      "id": 3,
+      "size": "full sheet"
+    },
+    {
+      "id": 4,
+      "size": "3 tire wedding cake "
+    },
+    {
+      "id": 5,
+      "size": "5 tire wedding cake"
+    }
+  ],
+  "designs": [
+    {
+      "id": 1,
+      "design": "For Graduation"
+    },
+    {
+      "id": 2,
+      "design": " For Bithday "
+    },
+    {
+      "id": 3,
+      "design": "baby shower"
+    },
+    {
+      "id": 4,
+      "design": "For Wedding"
+    }
+  ],
+  "cakeShapes": [
+    {
+      "id": 1,
+      "shape": "round"
+    },
+    {
+      "id": 2,
+      "shape": "Square "
+    },
+    {
+      "id": 3,
+      "shape": " custom cake"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "uesrId": 6,
+      "cakeImageId": 1
+    },
+    {
+      "id": 1,
+      "uesrId": 7,
+      "cakeImageId": 2
+    },
+    {
+      "id": 2,
+      "uesrId": 8,
+      "cakeImageId": 3
+    },
+    {
+      "id": 3,
+      "uesrId": 9,
+      "cakeImageId": 4
+    },
+    {
+      "id": 4,
+      "uesrId": 10,
+      "cakeImageId": 5
+    }
+  ],
+  "cakeImages": [
+    {
+      "id": 1,
+      "imageUrl": "https://birthdaycake24.com/uploads/worigin/2022/04/25/romantic-chocolate-anniversary-wishes-cake-with-photo-frames-1_68034.jpg"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://i.pinimg.com/736x/56/96/2f/56962f9ea6bd2f16fe03d307a9e61e11--champagne-wedding-cakes-wedding-gold.jpg"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://www.rosesandrings.com/wp-content/uploads/2018/01/black-and-white-vinatge-square-weding-cake.jpg"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://i.ytimg.com/vi/x5xCaQa7Fuw/maxresdefault.jpg"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://production-next-images-cdn.thumbtack.com/i/460821815292755984/width/1024.jpeg"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5a12e116cd39c3ad7688d610/1511190290724-919W3BUZIDIZ2URWWYSR/100_4477.jpg?format=750w"
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc9p04pOyCz4hfJy64yD_ipG0lzyyfehhLZ0ntljp1tgOUnr6r-TUpFP9pyJ3_rXj-dh0&usqp=CAU"
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://birthdaycake24.com/uploads/worigin/2022/04/25/romantic-chocolate-anniversary-wishes-cake-with-photo-frames-1_68034.jpg"
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://s.ecrater.com/stores/329572/585b24e104b24_329572n.jpg"
+    }
+  ]
+}
