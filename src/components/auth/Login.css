@@ -15,7 +15,8 @@
 
 
 .projectName{
-  color: rgb(150, 117, 236);
+ 
+  color: rgb(127, 83, 237);
   font-size: 200%;
   /* font-family: 'Roboto', sans-serif; */
 font-family: 'Sansita Swashed', cursive;
@@ -26,6 +27,7 @@ fieldset {
   padding: 1rem 0;
   margin: 0px;
   border: 0;
+
 }
 
 .form--login {
@@ -33,6 +35,7 @@ fieldset {
   display:inline-block;
   margin: 0 auto;
   text-align:center;
+  color: #cccccc;
 }
 
 .form--login > fieldset > input[type="email"] {
@@ -56,7 +59,7 @@ fieldset {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #832a58;
+  color: #080205;
   background-clip: padding-box;
   border: 1px solid #090a0b;
   border-radius: 0.25rem;
@@ -75,10 +78,15 @@ fieldset {
 }
 .loginStyle{
   margin-left: 100px;
-  background-color: rgb(169, 224, 224);
+  /* background-color: rgb(185, 194, 194); */
 
 }
-
+h2{
+  color: #cccccc;
+  text-align: center;
+  margin-left: 40px;
+  font-size: xx-large;
+}
 
 
 
@@ -99,18 +107,16 @@ margin-top: 5%;
 }
 .background-Image{
   /* background-image: url("https://thumbs.dreamstime.com/b/birthday-cake-decorated-colorful-sprinkles-ten-candles-colorful-birthday-cake-sprinkles-ten-candles-blue-142412983.jpg"); */
-  background-image: url("https://cdn.shopify.com/s/files/1/0272/5848/6851/products/christmas-coconut-gateau-382981.jpg?v=1667889711&width=1100");
-
+  background-image: url("../CakeImages/istockphoto-821258968-612x612.jpeg");
+  background-color: #cccccc;
+  height: 750px;
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment:fixed;
   background-size: cover;
-  height: 1000px;
-    margin-bottom: 40px;
-
- 
-    /* margin: 50px; */
-
+  position: relative;  
 }
+
+
 .h1{
   margin-top: 10px;
 }
@@ -123,4 +129,18 @@ margin-top: 5%;
 } */
 .login-first{
   padding-top: px;
+}
+button{
+  background-color: #d6a8c0;
+  height: calc(1.5em + 0.75rem + 1px);
+  width: 7.75rem ;
+  border-radius: 8.25rem;
+}
+html{
+  background-image: url("../CakeImages/cake-bakery-shop-logo-design-vector-template-illustration-171298118-removebg-preview.png"); 
+  background-repeat: no-repeat, repeat;
+  background-size: 18%;
+background-color: rgb(206, 222, 238);
+
+
 }

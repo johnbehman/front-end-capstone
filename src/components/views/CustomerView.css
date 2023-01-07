@@ -1,0 +1,12 @@
+.formHeader{
+    padding-top: 50px;
+    margin-right: 800px;
+color: rgb(223, 139, 202);
+font-size: large;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Sansita Swashed', cursive;
+  
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed:wght@500&display=swap');

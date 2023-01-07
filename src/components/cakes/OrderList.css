@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  top: 50px;
+  top: -40px;
   position: relative;
 
 
@@ -27,15 +27,17 @@ padding: 10px;
 
 .orderList {
   width: 300px;
-  margin: 10px;
-  padding: 20px;
+  margin: 50px;
+  padding: 30px;
   background-color: antiquewhite;
   border-color: rgb(206, 89, 47);
-  border: 6px solid rgb(119, 71, 71);
+  border: 6px solid rgb(203, 158, 201);
+  border-radius: 10px 100px / 120px;  
   
 }
 .orderMain{
-  background-color: rgb(143, 199, 83);
+ background-color: pink;
+
 
 }
 
@@ -43,21 +45,27 @@ padding: 10px;
 .order_h1 h1{
   left: 10px;
   position: relative;
-  text-align: left;
-  color: fuchsia;
-  background-color:  rgb(231, 238, 186);
-  width: 150px;
-  font-family: 'Sansita Swashed', cursive;
-  margin: 0px;
-  padding: 5px;
-  top: 20px;
-  left: 20px;
- }
-/* html{
-  background-color: rgb(110, 123, 134);
-}
- */
+  text-align: center;
+  color: rgb(45, 31, 45);
+  background-color:  rgb(228, 192, 235);
 
-/* @font-face {
-    font-family: "Glegoo";
-    src: local("Glegoo"), url(../../Assets/Glegoo-Regular.ttf) format("woff");} */
+  width: 400px;
+  /* font-family: 'Sansita Swashed', cursive; */
+  margin-left: 30%;
+  padding: 10px;
+  top: 20px;
+  border-radius: 50px;
+
+ }
+
+ 
+.create-bt{
+  background-color: rgb(158, 201, 241);
+  margin-left: 200px;
+  font-weight:700;
+  
+}
+.delete{
+  background-color: rgb(219, 64, 95);
+  color: rgb(9, 9, 9);
+}

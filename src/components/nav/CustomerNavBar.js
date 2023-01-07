@@ -9,8 +9,7 @@ export const CustomerNavBar = () => {
   return (
     <div className="navImgContainer">
               <div className="navBarLinks">
-        <div className="navbar__item active">
-        </div>
+        
         
         {/* <div className="navbar__item active">
           <Link className="navbar__link" to="/edit">
@@ -29,6 +28,12 @@ export const CustomerNavBar = () => {
             Gallary
           </Link>
         </div>  
+
+       
+
+
+
+
         <div className="navbar__item active">
           <Link className="navbar__link" to="/aboutUs">
             About Us

@@ -2,15 +2,12 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom"
-// import { AddCakeOrder } from "./AddCakeOrder";
 import "./OrderList.css";
 
 
 export const OrderList = ( ) => {
   const [order, setOrder] = useState([]);
-  // const [add,setAdd] = useState([]);
   const navigate = useNavigate();
-  // const { ordersId } = useParams();
   
   const localProjectUser = localStorage.getItem("project_user");
   const projectUserObject = JSON.parse(localProjectUser);
@@ -56,33 +53,11 @@ export const OrderList = ( ) => {
 
   };
 
-  // useEffect(() => {
-  //   fetch(`http://localhost:8088/orders/${ordersId}`)
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       setAdd(data);
-  //     });
-  // }, [ordersId]);
-
-  // const handleSaveButtonClick = (e) => {
-  //   e.preventDefault();
-
-  //   return fetch(`http://localhost:8088/orders/${add.id}`, {
-  //     method: "PUT",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //     body: JSON.stringify(add),
-  //   })
-  //     .then((response) => response.json())
-  //     .then(() => {
-  //       navigate("/order");
-  //     });
-  
-  // };
   return (
     <>
    <div className="orderMain">
+ 
+  
     <div className="order_h1">
       <h1> order List</h1>
       
@@ -130,8 +105,8 @@ export const OrderList = ( ) => {
                 </div>
               </div>
               {deleteButton(order.id)}
-              <div>
-              <button onClick={() => navigate("/order/create")}>Create order</button>
+              <div >
+              <button className="create-bt" onClick={() => navigate("/order/create")}>Create order</button>
               </div>
               {/* <button
           onClick={(clickEvent) => {

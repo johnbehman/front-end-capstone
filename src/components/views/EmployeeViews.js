@@ -14,11 +14,15 @@ export const EmployeeViews = () => {
             path="/"
             element={
               <>
-             
+             <div className="formHeader">
+              <h1>Magic Cakes</h1>
+            </div>
                 <Outlet />
               </>
             }
-          >
+          >        <Route path="/" element={<AboutUs />} />
+
+
             <Route path="aboutUs" element={<AboutUs />} />
             <Route path="order/:ordersId" element={<EditCakeForm />} />
             <Route path="order" element={<OrderList />} />

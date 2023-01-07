@@ -64,8 +64,8 @@
       "address": "25 Miranda Court, Maryville,tn, 33803  United States",
       "phone": "(567) 424-6595",
       "email": "Sandy@gmail.com",
-      "cakeFlavorsId": 1,
-      "icingTypeId": 1,
+      "cakeFlavorsId": 4,
+      "icingTypeId": 3,
       "designId": 1,
       "cakeShapeId": 1,
       "sizeId": 1,
@@ -74,12 +74,12 @@
         "shape": "round"
       },
       "cakeFlavors": {
-        "id": 4,
-        "flavor": "Chocolate"
+        "id": 3,
+        "flavor": "Red velvet"
       },
       "icingType": {
-        "id": 1,
-        "type": "White vanilla Buttercream Frosting "
+        "id": 3,
+        "type": "Fondant"
       },
       "size": {
         "id": 1,
