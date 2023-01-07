@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useState} from "react";
 
+
 export const AddCakeOrder = () => {
 
 
@@ -27,30 +28,6 @@ export const AddCakeOrder = () => {
     sizeId: 0,
   });
 
-//   useEffect(
-//     () => {
-//         const fetchData = async () => {
-//             const response = await fetch(`http://localhost:8088/order/${ordersId}`)
-//             const responseJSON = await response.json()
-//             update(responseJSON)
-//         }
-//         fetchData()
-//     },
-//     []
-// )
-// useEffect(() => {
-   
-//     fetch(
-//       `http://localhost:8088/orders/${ordersId}`
-    
-//     )
-//       .then((response) => response.json())
-//       .then((data) => {
-//         console.log(data)
-//         update(data[0]);
-//       });
-//   }, [ordersId]);
-
 
 
 
@@ -71,19 +48,7 @@ export const AddCakeOrder = () => {
       sizeId: order.sizeId,
     };
 
-    // userId: 0,
-    // pickUpDate: "",
-    // name: "",
-    // address: "",
-    // phone: "",
-    // email: "",
-    // cakeFlavorsId: 0,
-    // icingTypeId: 0,
-    // designId: 0,
-    // cakeShapeId: 0,
-    // sizeId: 0,
-
-    // Edit
+   
 
     return fetch(`http://localhost:8088/order`, {
       method: "POST",
